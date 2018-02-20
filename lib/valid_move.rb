@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(arr,pos)
-  if (pos >= 0 && pos <= 8 && position_taken(arr,pos) == false)
+  if (pos >= 0 && pos <= 8 && position_taken?(arr,pos) == false)
     return true
   else return false
   end
